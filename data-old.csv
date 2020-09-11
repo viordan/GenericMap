@@ -1,0 +1,521 @@
+id,name,x,y,capacity,zoom,floor
+ALLGENDER,All Gender Washroom-Changeroom,2000,400,-1,person,First FLoor
+PEOPLEOPS,People Ops,2140,3700,-1,person,First Floor
+FINANCE,Finance,2140,3700,-1,person,First Floor
+GAMEARTISTS,Game Artists,560,2330,-1,person,First Floor
+GYM,GYM,2600,750,-1,person,First Floor
+GAME,Game,1350,2240,-1,person,First Floor
+TOOLS,Game Tools,1230,1360,-1,person,First Floor
+NINFRA,Game Ninfra,1860,1360,-1,person,First Floor
+PINGPONG,Games and Entertainment,3400,850,-1,person,First Floor
+EDUCATION,Education,1860,2240,-1,person,First Floor
+CAFETERIA,Main Cafeteria,3560,2540,-1,person,First Floor
+MARKETING,Marketing,500,3500,-1,person,First Floor
+PARTNERSHIP,Partnership,500,3500,-1,person,First Floor
+BRANDING,Branding,500,3500,-1,person,First Floor
+CORESERVICES,Core Services,3200,3450,-1,person,First Floor
+CUSTOMERSUPPORT,Customer Support,3200,3740,-1,person,First Floor
+FRONTENTRANCE,Front Entrance,1440,3970,-1,person,First Floor
+SIDEENTRANCE,Side Entrance,3940,2970,-1,person,First Floor
+COFFEEMACHINE-1,Coffee Machine Main,3460,2740,-1,person,First Floor
+COFFEEMACHINE-2,Coffee Machine Game,2110,1040,-1,person,First Floor
+COFFEEMACHINE-3,Coffee Machine Eductaion,2240,2070,-1,person,First Floor
+COFFEEMACHINE-4,Coffee Machine Marketing,760,2870,-1,person,First Floor
+COFFEEMACHINE-5,Coffee Machine PeopleOps,2430,3480,-1,person,First Floor
+COFFEEMACHINE-6,Coffee Machine CustomerSupport,2630,3760,-1,person,First Floor
+BATHROOM-1,Bathroom GYM,2510,1440,-1,person,First Floor
+BATHROOM-2,Bathroom Game,910,1670,-1,person,First Floor
+BATHROOM-3,Bathroom Front1,1450,3420,-1,person,First Floor
+BATHROOM-4,Bathroom Front2,1360,3280,-1,person,First Floor
+BATHROOM-5,Bathroom PeopleOps,2380,3060,-1,person,First Floor
+BATHROOM-6,Bathroom Side1,3700,3190,-1,person,First Floor
+BATHROOM-7,Bathroom Side2,3800,3560,-1,person,First Floor
+BATHROOM-8,Bathroom AllGender,2000,400,-1,person,First FLoor
+EXIT-1,Exit Front1,400,3990,-1,person,First Floor
+EXIT-2,Exit Front2,1440,3990,-1,person,First Floor
+EXIT-3,Exit Front3,2480,3990,-1,person,First Floor
+EXIT-4,Exit Front4,3560,3990,-1,person,First Floor
+EXIT-5,Exit Back1,240,110,-1,person,First Floor
+EXIT-6,Exit Back2,1510,110,-1,person,First Floor
+EXIT-7,Exit Back3,1900,110,-1,person,First Floor
+EXIT-8,Exit Back4,2370,110,-1,person,First Floor
+EXIT-9,Exit Back5,3560,110,-1,person,First Floor
+EXIT-10,Exit Right1,3950,1430,-1,person,First Floor
+EXIT-11,Exit Right2,3950,2980,-1,person,First Floor
+EXIT-12,Exit Right3,3950,3680,-1,person,First Floor
+EXIT-13,Exit Left1,100,1070,-1,person,First Floor
+EXIT-14,Exit Left2,100,1370,-1,person,First Floor
+EXIT-15,Exit Left3,100,1840,-1,person,First Floor
+EXIT-16,Exit Left4,100,2760,-1,person,First Floor
+IT,IT,3090,1190,-1,person,First Floor
+IT-1,Jason Almeida,3090,1190,-1,person,First Floor
+IT-2,Tyler Thomson,3090,1190,-1,person,First Floor
+IT-3,Rob Baker,3090,1190,-1,person,First Floor
+Applepot,Applepot,3590,3118,2,,First Floor
+Aquaster,Aquaster,1850,3278,3,,First Floor
+Ashlet,Ashlet,436,1882,4,482-717-1833,First Floor
+Athena,Athena,1604,3574,6,568-626-7623,First Floor
+Auditorium,Auditorium,844,806,400,645-365-8365,First Floor
+Battabash,Battabash,2312,2608,8,,First Floor
+BigHex,Big Hex,2312,2876,10,630-960-8734,First Floor
+Bok,Bok,272,1210,8,,First Floor
+CalicoCat,Calico Cat,462,2876,8,554-083-5398,First Floor
+Cebollini,Cebollini,2284,2204,8,217-242-8020,First Floor
+Chameleon,Chameleon,898,1210,10,228-222-4705,First Floor
+Cogmite,Cogmite,980,3414,4,215-717-5731,First Floor
+Diveodile,Diveodile,1944,1022,8,,First Floor
+DonZorro,Don Zorro,2692,3520,6,302-419-9568,First Floor
+Dreamlet,Dreamlet,3590,3198,2,,First Floor
+Eclipse,Eclipse,980,3602,16,509-394-1905,First Floor
+Eve,Eve,776,1210,6,819-145-2129,First Floor
+Flora,Flora,598,1882,10,829-344-2739,First Floor
+Florafox,Florafox,1170,3574,14,792-851-7263,First Floor
+Frostfang,Frostfang,2692,3226,8,615-667-5168,First Floor
+Gale,Gale,408,1210,4,,First Floor
+Gearsite,Gearsite,2692,3386,4,917-349-7694,First Floor
+Hotpot,Hotpot,300,1882,4,653-878-8257,First Floor
+HowardCornelius,Howard Cornelius,1170,3414,8,689-554-6741,First Floor
+Husky,Husky,2312,1774,16,748-731-0990,First Floor
+Ignios,Ignios,1632,3386,6,432-281-2073,First Floor
+Luma,Luma,952,3844,20,433-844-4855,First Floor
+Lumiot,Lumiot,2312,2338,6,319-867-2687,First Floor
+Magmischief,Magmischief,1170,3708,10,920-846-3562,First Floor
+Mermina,Mermina,1632,3816,12,721-665-1240,First Floor
+Mystyyk,Mystyyk,980,3306,6,417-912-1966,First Floor
+Noot,Noot,598,1210,10,979-748-3717,First Floor
+Pomprikle,Pomprikle,0,0,6,857-483-7420,First Floor
+ProdigyAcademy1,Prodigy Academy 1,2856,2338,47,322-506-4960,First Floor
+ProdigyAcademy2,Prodigy Academy 2,2828,2688,52,995-477-2298,First Floor
+Snowfluff,Snowfluff,3426,3118,2,,First Floor
+Sproot,Sproot,3426,3198,2,,First Floor
+Squawks,Squawks,2312,2472,8,471-031-4405,First Floor
+Stampeed,Stampeed,3290,3144,6,375-409-4384,First Floor
+Tarragon,Tarragon,788,1882,4,559-676-3142,First Floor
+Terrosaur,Terrosaur,2122,3278,3,,First Floor
+TripTrop,TripTrop,2312,2742,8,602-080-3198,First Floor
+Tyscout,Tyscout,1986,3278,3,,First Floor
+Browl,Browl,3100,3924,2,,Second Floor
+Charfoal,Charfoal,2910,3816,6,396-554-7629,Second Floor
+CloudNeek,Cloud Neek,3128,3844,2,,Second Floor
+Fathom,Fathom,2774,3790,6,885-419-2545,Second Floor
+Fishbol,Fishbol,3482,3844,20,347-432-4348,Second Floor
+Flikflit,Flikflit,2910,3924,2,,Second Floor
+Flurrious,Flurrious,2584,3898,4,,Second Floor
+KandiKorn,Kandi Korn,3128,3736,2,,Second Floor
+Mimic,Mimic,2584,3736,6,299-671-5338,Second Floor
+Truckle,Truckle,2774,3924,2,,Second Floor
+BR-1-36,Jean-Luc (JL) Dery,890,2690,-1,person,First Floor
+BR-1-38,Marvin Sanchez,590,2690,-1,person,First Floor
+BR-1-39,Darien Morris,460,2690,-1,person,First Floor
+BR-1-40,Hassan,320,2690,-1,person,First Floor
+BR-1,GROWTH,1920,530,-1,person,First Floor
+BR-2,GROWTH,1990,530,-1,person,First Floor
+BR-3,GROWTH,2070,530,-1,person,First Floor
+BR-4,GROWTH,1920,570,-1,person,First Floor
+BR-5,GROWTH,1990,570,-1,person,First Floor
+BR-6,GROWTH,2070,570,-1,person,First Floor
+BR-7,GROWTH,1920,730,-1,person,First Floor
+BR-8,GROWTH,1990,730,-1,person,First Floor
+BR-9,GROWTH,2070,730,-1,person,First Floor
+BR-10,GROWTH,1920,770,-1,person,First Floor
+BR-11,GROWTH,1990,770,-1,person,First Floor
+BR-12,GROWTH,2070,770,-1,person,First Floor
+BR-13,GROWTH,1880,910,-1,person,First Floor
+BR-14,GROWTH,1950,910,-1,person,First Floor
+BR-15,GROWTH,2030,910,-1,person,First Floor
+BR-16,GROWTH,2100,910,-1,person,First Floor
+BR-17,Carlos,1140,1350,-1,person,First Floor
+BR-18,Mythu S,1210,1350,-1,person,First Floor
+BR-19,Ben K,1290,1350,-1,person,First Floor
+BR-20,Virgil Iordan,1430,1350,-1,person,First Floor
+BR-21,Derek G,1510,1350,-1,person,First Floor
+BR-22,Matt Correia,1140,1390,-1,person,First Floor
+BR-23,Pat G,1210,1390,-1,person,First Floor
+BR-24,Brian Mc.,1290,1390,-1,person,First Floor
+BR-25,Tiago F,1430,1390,-1,person,First Floor
+BR-26,Scott B,1510,1390,-1,person,First Floor
+BR-27,GROWTH-Backend,1680,1350,-1,person,First Floor
+BR-28,Anderson T,1750,1350,-1,person,First Floor
+BR-29,Riaz A,1830,1350,-1,person,First Floor
+BR-30,Maximo D,1900,1350,-1,person,First Floor
+BR-31,Erin B,1980,1350,-1,person,First Floor
+BR-32,GROWTH-Client,1680,1390,-1,person,First Floor
+BR-33,Anca E,1750,1390,-1,person,First Floor
+BR-34,GROWTH,1830,1390,-1,person,First Floor
+BR-35,Emerson Steinman,1900,1390,-1,person,First Floor
+BR-36,Cale B,1980,1390,-1,person,First Floor
+BL-37,Natalia Romanova,1200,1600,-1,person,First Floor
+BL-38,Lenny Frimpong,1280,1600,-1,person,First Floor
+BL-39,Darren Keenan,1200,1640,-1,person,First Floor
+BL-40,Andrew Puntillo,1280,1640,-1,person,First Floor
+BL-41,Jose Montenegro,1440,1600,-1,person,First Floor
+BL-42,Volkan Benli,1510,1600,-1,person,First Floor
+BL-43,Joel Langlois,1440,1640,-1,person,First Floor
+BL-44,Sloan Kelly,1510,1640,-1,person,First Floor
+BL-45,Emma Scratch,1440,1750,-1,person,First Floor
+BL-46,Joseph Jacob,1510,1750,-1,person,First Floor
+BL-47,Nathaniel Croce,1440,1790,-1,person,First Floor
+BL-48,Sailesh Sarathi,1510,1790,-1,person,First Floor
+BL-49,Growth,1440,1900,-1,person,First Floor
+BL-50,Growth,1510,1900,-1,person,First Floor
+BL-51,Growth,1440,1930,-1,person,First Floor
+BL-52,Growth,1510,1930,-1,person,First Floor
+BL-53,Deanna Sowa,1200,2050,-1,person,First Floor
+BL-54,Sumira Mathews,1280,2050,-1,person,First Floor
+BL-55,Carolyne Hess,1200,2090,-1,person,First Floor
+BL-56,Jordan Wozniak,1280,2090,-1,person,First Floor
+BL-57,Growth,1440,2050,-1,person,First Floor
+BL-58,Growth,1510,2050,-1,person,First Floor
+BL-59,Barbara Cieslak,1440,2090,-1,person,First Floor
+BL-60,Daniel Dupuis,1510,2090,-1,person,First Floor
+BL-61,Growth,1200,2220,-1,person,First Floor
+BL-62,Steven Ariss,1280,2220,-1,person,First Floor
+BL-63,Growth,1200,2250,-1,person,First Floor
+BL-64,Growth,1280,2250,-1,person,First Floor
+BL-65,Jennifer Vandermeer,1440,2220,-1,person,First Floor
+BL-66,Daniel Saulnier,1510,2220,-1,person,First Floor
+BL-67,Growth,1440,2250,-1,person,First Floor
+BL-68,Growth,1510,2250,-1,person,First Floor
+BL-69,Karl Merten,1440,2380,-1,person,First Floor
+BL-70,Chris Light,1510,2380,-1,person,First Floor
+BL-71,Carter Cook,1440,2410,-1,person,First Floor
+BL-72,Growth,1510,2410,-1,person,First Floor
+BL-73,Susan Carriere,1440,2520,-1,person,First Floor
+BL-74,Alissa Nonato,1510,2520,-1,person,First Floor
+BL-75,Growth,1440,2560,-1,person,First Floor
+BL-76,Andrew Morris,1510,2560,-1,person,First Floor
+BL-77,Nelson Pavao,1200,2680,-1,person,First Floor
+BL-78,Smriti (Sim) Jasra,1280,2680,-1,person,First Floor
+BL-79,Kass Kadar,1200,2720,-1,person,First Floor
+BL-80,Aaron Iyer,1280,2720,-1,person,First Floor
+BL-81,Adrian D'Alimonte,1440,2680,-1,person,First Floor
+BL-82,Steve Bergen,1510,2680,-1,person,First Floor
+BL-83,Elise Cole,1440,2720,-1,person,First Floor
+BL-84,Darren Clark,1510,2720,-1,person,First Floor
+BL-85,Chris Buzon,1200,2830,-1,person,First Floor
+BL-86,Brookelyn Bridges-Clark,1280,2830,-1,person,First Floor
+BL-87,Growth,1200,2870,-1,person,First Floor
+BL-88,Sam Xiong,1280,2870,-1,person,First Floor
+BL-89,Joseph Charbel,1440,2830,-1,person,First Floor
+BL-90,Byron Gaum,1510,2830,-1,person,First Floor
+BL-91,Dwayne Hammond,1440,2870,-1,person,First Floor
+BL-92,Matt West,1510,2870,-1,person,First Floor
+BL-93,Growth,1680,1600,-1,person,First Floor
+BL-94,Jamie Allen,1750,1600,-1,person,First Floor
+BL-95,Spencer Poon Woo,1820,1600,-1,person,First Floor
+BL-96,Chris Carpenter,1900,1600,-1,person,First Floor
+BL-97,Growth,1980,1600,-1,person,First Floor
+R-98,Growth/TBD Designer,1680,1640,-1,person,First Floor
+R-99,Zach Scragg,1750,1640,-1,person,First Floor
+R-100,David Ding,1820,1640,-1,person,First Floor
+R-101,Mike Obregger,1900,1640,-1,person,First Floor
+R-102,Joe Staller,1980,1640,-1,person,First Floor
+R-103,Nick Norbeck,1680,1750,-1,person,First Floor
+R-104,Andrew McKay,1750,1750,-1,person,First Floor
+R-105,Mitch Langlois,1820,1750,-1,person,First Floor
+R-106,Ami Patel,1900,1750,-1,person,First Floor
+R-107,Else George,1980,1750,-1,person,First Floor
+R-108,Mary Lee,1680,1790,-1,person,First Floor
+R-109,Richelle Rogers,1750,1790,-1,person,First Floor
+R-110,Trevor Wright,1820,1790,-1,person,First Floor
+R-111,Christian Ferreira,1900,1790,-1,person,First Floor
+R-112,GROWTH,1980,1790,-1,person,First Floor
+R-113,Nicole Zelem,1680,1900,-1,person,First Floor
+R-114,Danny Frade,1750,1900,-1,person,First Floor
+R-115,Tanya Bobrovski,1680,1930,-1,person,First Floor
+R-116,Amit Bhinder,1750,1930,-1,person,First Floor
+R-117,GROWTH/Hoteling,1680,2050,-1,person,First Floor
+R-118,Michael Bardouille,1750,2050,-1,person,First Floor
+R-119,swapnil kotecha,1680,2090,-1,person,First Floor
+R-120,Kevin DeSimone,1750,2090,-1,person,First Floor
+R-121,Jiawen Chen,1680,2220,-1,person,First Floor
+R-122,Saajid Mohammed,1750,2220,-1,person,First Floor
+R-123,Mike Moncada,1820,2220,-1,person,First Floor
+R-124,Jeff Busby,1900,2220,-1,person,First Floor
+R-125,GROWTH,1980,2220,-1,person,First Floor
+R-126,GROWTH,1680,2250,-1,person,First Floor
+R-127,GROWTH,1750,2250,-1,person,First Floor
+R-128,GROWTH,1820,2250,-1,person,First Floor
+R-129,GROWTH,1900,2250,-1,person,First Floor
+R-130,GROWTH,1980,2250,-1,person,First Floor
+R-131,Thuy Doan,1680,2380,-1,person,First Floor
+R-132,Asha Joy,1750,2380,-1,person,First Floor
+R-133,GROWTH,1820,2380,-1,person,First Floor
+R-134,Joe Jonker,1900,2380,-1,person,First Floor
+R-135,GROWTH,1980,2380,-1,person,First Floor
+R-136,Lilly Dinh-Le,1680,2410,-1,person,First Floor
+R-137,Jon Richardson,1750,2410,-1,person,First Floor
+R-138,Sid Shankar,1820,2410,-1,person,First Floor
+R-139,GROWTH,1900,2410,-1,person,First Floor
+R-140,Sumira,1980,2410,-1,person,First Floor
+R-141,Mariya Boyko,1680,2520,-1,person,First Floor
+R-142,Brent Havers,1750,2520,-1,person,First Floor
+R-143,Woody Wan,1680,2560,-1,person,First Floor
+R-144,Kate Harvey-Vieira,1750,2560,-1,person,First Floor
+R-145,Sailesh,1680,2680,-1,person,First Floor
+R-146,Rory Sutherland,1750,2680,-1,person,First Floor
+R-147,Liana Cherepaha,1680,2720,-1,person,First Floor
+R-148,Krystin Champagne,1750,2720,-1,person,First Floor
+R-149,Nadeem Aljaber,1680,2830,-1,person,First Floor
+R-150,GROWTH,1750,2830,-1,person,First Floor
+R-151,Alyssa Lahaie,1820,2830,-1,person,First Floor
+R-152,Diana Truong,1900,2830,-1,person,First Floor
+R-153,Erin Lacey,1980,2830,-1,person,First Floor
+R-154,GROWTH,1680,2870,-1,person,First Floor
+R-155,GROWTH,1750,2870,-1,person,First Floor
+R-156,Stephanie McEwan,1820,2870,-1,person,First Floor
+R-157,Jen Wu,1900,2870,-1,person,First Floor
+R-158,Daniel Nguyen,1980,2870,-1,person,First Floor
+G-159,Mason Butterwick,180,2120,-1,person,First Floor
+G-160,GROWTH,260,2120,-1,person,First Floor
+G-161,Minlu Chen,180,2240,-1,person,First Floor
+G-162,Daphne Yue,260,2240,-1,person,First Floor
+G-163,GROWTH,180,2280,-1,person,First Floor
+G-164,GROWTH,260,2280,-1,person,First Floor
+G-165,Chun Yi,180,2410,-1,person,First Floor
+G-166,GROWTH,260,2410,-1,person,First Floor
+G-167,Lily Xia,180,2460,-1,person,First Floor
+G-168,Bianca Bautista,260,2460,-1,person,First Floor
+G-169,Alexander Barattin,410,2120,-1,person,First Floor
+G-170,GROWTH,480,2120,-1,person,First Floor
+G-171,Shane Hillman,560,2120,-1,person,First Floor
+G-172,Alvin Hew,410,2240,-1,person,First Floor
+G-173,Mehrshad Aflatouni,480,2240,-1,person,First Floor
+G-174,Emilio Grasso,560,2240,-1,person,First Floor
+G-175,Jeffery Zhang,410,2280,-1,person,First Floor
+G-176,Anya Redkina,480,2280,-1,person,First Floor
+G-177,Martine Nguyen,560,2280,-1,person,First Floor
+G-178,Katelyn Pellow,410,2410,-1,person,First Floor
+G-179,Rachel Hand,480,2410,-1,person,First Floor
+G-180,Jon Westwood,560,2410,-1,person,First Floor
+G-181,Nemo Filipovic,410,2460,-1,person,First Floor
+G-182,Dani Shahfeh,480,2460,-1,person,First Floor
+G-183,Natalia Thomson,560,2460,-1,person,First Floor
+G-184,GROWTH,660,2120,-1,person,First Floor
+G-185,GROWTH/Game DA/DS,750,2120,-1,person,First Floor
+G-186,Andy Milczarski,660,2240,-1,person,First Floor
+G-187,Rachel Kho,750,2240,-1,person,First Floor
+G-188,Anthonny Monterroso,660,2280,-1,person,First Floor
+G-189,Another DA,750,2280,-1,person,First Floor
+G-190,GROWTH - Lennox/Backfill DE,660,2410,-1,person,First Floor
+G-191,Dale Paas,750,2410,-1,person,First Floor
+G-192,Deepak Rout,660,2460,-1,person,First Floor
+G-193,Aakash Goenka,750,2460,-1,person,First Floor
+G-194,GROWTH/Hoteling,880,2120,-1,person,First Floor
+G-195,GROWTH/Hoteling,940,2120,-1,person,First Floor
+G-196,Matt Lee,880,2240,-1,person,First Floor
+G-197,Preeti Hemant,940,2240,-1,person,First Floor
+G-198,Bryan Paratian,880,2280,-1,person,First Floor
+G-199,Vuk Pejovic,940,2280,-1,person,First Floor
+G-200,Hannah Wright,880,2410,-1,person,First Floor
+G-201,GROWTH - Agile spot,940,2410,-1,person,First Floor
+G-202,GROWTH - Agile spot,880,2460,-1,person,First Floor
+G-203,GROWTH - Agile spot,940,2460,-1,person,First Floor
+O-204,GROWTH/HOTEL,2870,3330,-1,person,First Floor
+O-205,Subodh Kumar,2940,3330,-1,person,First Floor
+O-206,GROWTH/HOTEL,3020,3330,-1,person,First Floor
+O-207,GROWTH/HOTEL,2870,3360,-1,person,First Floor
+O-208,GROWTH/HOTEL,2940,3360,-1,person,First Floor
+O-209,GROWTH/HOTEL,3020,3360,-1,person,First Floor
+O-210,Andrew den Hertog,3150,3330,-1,person,First Floor
+O-211,GROWTH,3220,3330,-1,person,First Floor
+O-212,Mario Uccello,3300,3330,-1,person,First Floor
+O-213,Erik Krieg,3150,3360,-1,person,First Floor
+O-214,GROWTH,3220,3360,-1,person,First Floor
+O-215,Sarmad Abualkaz,3300,3360,-1,person,First Floor
+O-216,Ben Johnson,3420,3330,-1,person,First Floor
+O-217,Adam Delyea,3490,3330,-1,person,First Floor
+O-218,Brian Kierstead,3420,3360,-1,person,First Floor
+O-219,GROWTH,3490,3360,-1,person,First Floor
+O-220,Dan Bird,2870,3480,-1,person,First Floor
+O-221,GROWTH,2940,3480,-1,person,First Floor
+O-222,Satyam Gupta,3020,3480,-1,person,First Floor
+O-223,Tom Turner,2870,3520,-1,person,First Floor
+O-224,GROWTH,2940,3520,-1,person,First Floor
+O-225,Olena Shevchenko,3020,3520,-1,person,First Floor
+O-226,GROWTH,3150,3480,-1,person,First Floor
+O-227,Chloe Reimer,3220,3480,-1,person,First Floor
+O-228,GROWTH,3300,3480,-1,person,First Floor
+O-229,GROWTH,3150,3520,-1,person,First Floor
+O-230,GROWTH,3220,3520,-1,person,First Floor
+O-231,GROWTH,3300,3520,-1,person,First Floor
+O-232,Adam Petrie,3420,3480,-1,person,First Floor
+O-233,Neetika Bhargava,3490,3480,-1,person,First Floor
+O-234,GROWTH,3560,3480,-1,person,First Floor
+O-235,Prashanth Azharuddin,3420,3520,-1,person,First Floor
+O-236,GROWTH,3490,3520,-1,person,First Floor
+O-237,Matt Eagar,3560,3520,-1,person,First Floor
+B-1,Cameron Noble,190,3090,-1,person,First Floor
+B-2,Emma Muldoon,270,3090,-1,person,First Floor
+B-3,Vikram Somasundaram,350,3090,-1,person,First Floor
+B-4,Ryan Perry,190,3130,-1,person,First Floor
+B-5,Mangal Chelli,270,3130,-1,person,First Floor
+B-6,GROWTH,350,3130,-1,person,First Floor
+B-7,GROWTH,480,3090,-1,person,First Floor
+B-8,GROWTH,550,3090,-1,person,First Floor
+B-9,GROWTH,480,3130,-1,person,First Floor
+B-10,GROWTH,550,3130,-1,person,First Floor
+B-11,GROWTH,670,3090,-1,person,First Floor
+B-12,GROWTH,750,3090,-1,person,First Floor
+B-13,GROWTH,820,3090,-1,person,First Floor
+B-14,GROWTH,670,3130,-1,person,First Floor
+B-15,GROWTH,750,3130,-1,person,First Floor
+B-16,GROWTH,820,3130,-1,person,First Floor
+B-17,Stirling Crawford,190,3240,-1,person,First Floor
+B-18,Daniel Jennings,270,3240,-1,person,First Floor
+B-19,Shekeba Yousufy,190,3280,-1,person,First Floor
+B-20,GROWTH/Hoteling Desk,270,3280,-1,person,First Floor
+B-21,Lisa Stroud,410,3240,-1,person,First Floor
+B-22,GROWTH/Hoteling Desk,480,3240,-1,person,First Floor
+B-23,GROWTH/Hoteling Desk,560,3240,-1,person,First Floor
+B-24,Matthew Gike,410,3280,-1,person,First Floor
+B-25,GROWTH/Hoteling Desk,480,3280,-1,person,First Floor
+B-26,GROWTH/Hoteling Desk,560,3280,-1,person,First Floor
+B-27,GROWTH,700,3240,-1,person,First Floor
+B-28,GROWTH,780,3240,-1,person,First Floor
+B-29,GROWTH,700,3280,-1,person,First Floor
+B-30,GROWTH,780,3280,-1,person,First Floor
+B-31,Lianna LaChappelle,190,3400,-1,person,First Floor
+B-32,Michael Thornton,270,3400,-1,person,First Floor
+B-33,Carly Valkenier,190,3440,-1,person,First Floor
+B-34,Josh Prieur,270,3440,-1,person,First Floor
+B-35,Nisha Birdi,410,3400,-1,person,First Floor
+B-36,GROWTH/CS Hoteling Desk,480,3400,-1,person,First Floor
+B-37,GROWTH/CS Hoteling Desk,560,3400,-1,person,First Floor
+B-38,GROWTH/CS Hoteling Desk,410,3440,-1,person,First Floor
+B-39,GROWTH/CS Hoteling Desk,480,3440,-1,person,First Floor
+B-40,Rob Mercer,560,3440,-1,person,First Floor
+B-41,GROWTH,700,3400,-1,person,First Floor
+B-42,GROWTH,780,3400,-1,person,First Floor
+B-43,GROWTH,700,3440,-1,person,First Floor
+B-44,GROWTH,780,3440,-1,person,First Floor
+B-45,GROWTH,190,3550,-1,person,First Floor
+B-46,GROWTH,270,3550,-1,person,First Floor
+B-47,GROWTH,190,3590,-1,person,First Floor
+B-48,GROWTH,270,3590,-1,person,First Floor
+B-49,GROWTH,410,3550,-1,person,First Floor
+B-50,GROWTH,480,3550,-1,person,First Floor
+B-51,GROWTH,560,3550,-1,person,First Floor
+B-52,GROWTH,410,3590,-1,person,First Floor
+B-53,GROWTH,480,3590,-1,person,First Floor
+B-54,GROWTH,560,3590,-1,person,First Floor
+B-55,GROWTH,700,3550,-1,person,First Floor
+B-56,GROWTH,780,3550,-1,person,First Floor
+B-57,GROWTH,700,3590,-1,person,First Floor
+B-58,GROWTH,780,3590,-1,person,First Floor
+B-59,Laney Kennedy,190,3700,-1,person,First Floor
+B-60,Maria Kampen,270,3700,-1,person,First Floor
+B-61,Jordan Nisbet,350,3700,-1,person,First Floor
+B-62,Marcus Guido,190,3740,-1,person,First Floor
+B-63,GROWTH,270,3740,-1,person,First Floor
+B-64,Justin Raudys,350,3740,-1,person,First Floor
+B-65,GROWTH,490,3700,-1,person,First Floor
+B-66,GROWTH,570,3700,-1,person,First Floor
+B-67,GROWTH,640,3700,-1,person,First Floor
+B-68,GROWTH,720,3700,-1,person,First Floor
+B-69,GROWTH,490,3740,-1,person,First Floor
+B-70,GROWTH,570,3740,-1,person,First Floor
+B-71,GROWTH,640,3740,-1,person,First Floor
+B-72,GROWTH,720,3740,-1,person,First Floor
+B-73,Johana Escobar,190,3855,-1,person,First Floor
+B-74,Nazia Khan,270,3855,-1,person,First Floor
+B-75,GROWTH,350,3855,-1,person,First Floor
+B-76,Melissa Mårtensson,190,3900,-1,person,First Floor
+B-77,GROWTH,270,3900,-1,person,First Floor
+B-78,Mike Garrett,350,3900,-1,person,First Floor
+B-79,Margaryta Chabanenko,490,3855,-1,person,First Floor
+B-80,Ryan Juraschka,570,3855,-1,person,First Floor
+B-81,Sofia Egudkina,640,3855,-1,person,First Floor
+B-82,Matt Ellis,720,3855,-1,person,First Floor
+B-83,Rodrigo Sanchez Lopez,490,3900,-1,person,First Floor
+B-84,Joe Morris,570,3900,-1,person,First Floor
+B-85,Matthew Barret,640,3900,-1,person,First Floor
+B-86,GROWTH,720,3900,-1,person,First Floor
+P-1,GROWTH,1830,3470,-1,person,First Floor
+P-2,Carolyn Baker,1870,3470,-1,person,First Floor
+P-3,GROWTH,1830,3540,-1,person,First Floor
+P-4,Khuzema Irshad,1870,3540,-1,person,First Floor
+P-5,David Hill,1990,3470,-1,person,First Floor
+P-6,GROWTH,2030,3470,-1,person,First Floor
+P-7,Janessa Goulet,1990,3540,-1,person,First Floor
+P-8,GROWTH,2030,3540,-1,person,First Floor
+P-9,GROWTH,2140,3470,-1,person,First Floor
+P-10,GROWTH,2180,3470,-1,person,First Floor
+P-11,GROWTH,2140,3540,-1,person,First Floor
+P-12,GROWTH,2180,3540,-1,person,First Floor
+P-13,GROWTH,1820,3690,-1,person,First Floor
+P-14,GROWTH,1890,3690,-1,person,First Floor
+P-15,GROWTH,1960,3690,-1,person,First Floor
+P-16,GROWTH,2040,3690,-1,person,First Floor
+P-17,GROWTH,1820,3730,-1,person,First Floor
+P-18,GROWTH,1890,3730,-1,person,First Floor
+P-19,Kim,1960,3730,-1,person,First Floor
+P-20,GROWTH,2040,3730,-1,person,First Floor
+P-21,GROWTH,2240,3690,-1,person,First Floor
+P-22,GROWTH,2320,3690,-1,person,First Floor
+P-23,GROWTH,2400,3690,-1,person,First Floor
+P-24,Candice Fearon,2240,3730,-1,person,First Floor
+P-25,Donna Curran,2320,3730,-1,person,First Floor
+P-26,Dan Cao,2400,3730,-1,person,First Floor
+P-27,GROWTH,1820,3850,-1,person,First Floor
+P-28,GROWTH,1890,3850,-1,person,First Floor
+P-29,GROWTH,1960,3850,-1,person,First Floor
+P-30,GROWTH,2040,3850,-1,person,First Floor
+P-31,Zach,1820,3890,-1,person,First Floor
+P-32,Kerri,1890,3890,-1,person,First Floor
+P-33,Manuela G,1960,3890,-1,person,First Floor
+P-34,Tracey Fitzpatrick,2040,3890,-1,person,First Floor
+P-35,Kaelah,2240,3850,-1,person,First Floor
+P-36,Hoteling Desk,2320,3850,-1,person,First Floor
+P-37,Hoteling Desk,2400,3850,-1,person,First Floor
+P-38,Jonathon,2240,3890,-1,person,First Floor
+P-39,Paloma,2320,3890,-1,person,First Floor
+P-40,Yad,2400,3890,-1,person,First Floor
+P-1-116-A,Lauren,2073,3140,-1,person,First Floor
+P-1-116-B,EA,2073,3215,-1,person,First Floor
+P-1-103,SJ,1620,3215,-1,person,First Floor
+P-1-102,Damien,1620,3140,-1,person,First Floor
+P-1-115,Rohan,1980,3140,-1,person,First Floor
+P-1-114,Alex,1860,3140,-1,person,First Floor
+O-1,GROWTH,2800,3655,-1,person,First Floor
+O-2,GROWTH,2880,3655,-1,person,First Floor
+O-3,GROWTH,2950,3655,-1,person,First Floor
+O-4,GROWTH,3050,3655,-1,person,First Floor
+O-5,GROWTH,2800,3700,-1,person,First Floor
+O-6,GROWTH,2880,3700,-1,person,First Floor
+O-7,Josh Kelly,2950,3700,-1,person,First Floor
+O-8,GROWTH,3050,3700,-1,person,First Floor
+O-9,GROWTH,3150,3655,-1,person,First Floor
+O-10,GROWTH,3220,3655,-1,person,First Floor
+O-11,GROWTH,3300,3655,-1,person,First Floor
+O-12,Matt Anderson,3150,3700,-1,person,First Floor
+O-13,GROWTH,3220,3700,-1,person,First Floor
+O-14,Matt Nash,3300,3700,-1,person,First Floor
+O-15,GROWTH,3430,3655,-1,person,First Floor
+O-16,GROWTH,3500,3655,-1,person,First Floor
+O-17,GROWTH,3570,3655,-1,person,First Floor
+O-18,GROWTH,3430,3700,-1,person,First Floor
+O-19,GROWTH,3500,3700,-1,person,First Floor
+O-20,GROWTH,3570,3700,-1,person,First Floor
+O-21,Ross Cowan,2800,3810,-1,person,First Floor
+O-22,Wayne Smith,2880,3810,-1,person,First Floor
+O-23,Dustin (DW) Wright,2950,3810,-1,person,First Floor
+O-24,GROWTH,2800,3840,-1,person,First Floor
+O-25,GROWTH,2880,3840,-1,person,First Floor
+O-26,Van Mathavong,2950,3840,-1,person,First Floor
+O-27,Katie Male,3050,3810,-1,person,First Floor
+O-28,Amanda Edwards,3150,3810,-1,person,First Floor
+O-29,Meetti Jena,3220,3810,-1,person,First Floor
+O-30,Spencer Zimmerman,3300,3810,-1,person,First Floor
+O-31,GROWTH,3050,3840,-1,person,First Floor
+O-32,Adam Clement,3150,3840,-1,person,First Floor
+O-33,Chriz Gazzole,3220,3840,-1,person,First Floor
+O-34,GROWTH,3300,3840,-1,person,First Floor
+O-35,GROWTH,3430,3810,-1,person,First Floor
+O-36,GROWTH,3500,3810,-1,person,First Floor
+O-37,Terry Duff,3570,3810,-1,person,First Floor
+O-38,Zoe Interbartolo,3430,3840,-1,person,First Floor
+O-39,GROWTH,3500,3840,-1,person,First Floor
+O-40,Wade Fitzner,3570,3840,-1,person,First Floor
+O-1-199,Matt F.,2990,3160,-1,person,First Floor
+B-1-31,Richie Saltzman,660,2870,-1,person,First Floor
