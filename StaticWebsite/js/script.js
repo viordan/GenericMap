@@ -304,8 +304,6 @@ const clearSelection = () => {
     clearAggregateContainers(); //clear the containers for multiple points
 };
 
-
-
 const createLink = (_href,_src,_height,_zoomID) => { //html fuckery 
     let link = document.createElement('a');
     let icon = document.createElement('img');
