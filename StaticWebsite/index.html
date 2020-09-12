@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Oakville Office Map</title>
     <link rel="manifest" href="/manifest.json">
-    <link href="/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="/css/bootstrap-combobox.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="/css/mycss.css" media="screen" rel="stylesheet" type="text/css">
-    <script src="/js/jquery-1.11.1.min.js" type="text/javascript"></script>
-    <script src="/js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="/js/bootstrap-combobox.js" type="text/javascript"></script>
+    <link href="css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap-combobox.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="css/mycss.css" media="screen" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap-combobox.js" type="text/javascript"></script>
     <script src="js/pixi-legacy.min.js" type="text/javascript"></script>
     <script src="js/script.js" defer></script>
   </head>
@@ -21,9 +21,9 @@
         <input type="button" onclick="location.href='https://app.slack.com/client/T029VMQML/DLN4J6ABA';" value="Help!" /> 
         <input type="button" onclick="location.href='https://office-map.s3.amazonaws.com/to/index.html';" value="Link to Toronto Map" />
       </p>
-      <button onclick="zoom(-0.1)" data-toggle="tooltip" title="Zoom Out"><img id ="zoomin" src="images/zoomin.png" class="button-style"></button>
-      <button onclick="zoom(0.1)" data-toggle="tooltip" title="Zoom In"><img id ="zoomout" src="images/zoomout.png" class="button-style"></button>
-      <button onclick="toggleLegend()" data-toggle="tooltip" title="Legend"><img id ="copyimage" src="images/question.png" class="button-style"></button>
+      <button onclick="zoom(-0.1)" data-toggle="tooltip" title="Zoom Out"><img id ="zoomin" src="/images/zoomin.png" class="button-style"></button>
+      <button onclick="zoom(0.1)" data-toggle="tooltip" title="Zoom In"><img id ="zoomout" src="/images/zoomout.png" class="button-style"></button>
+      <button onclick="toggleLegend()" data-toggle="tooltip" title="Legend"><img id ="copyimage" src="/images/question.png" class="button-style"></button>
       <form class="form-inline">
         <select id="roomSelector" class="combobox form-control" name="inline" ></select>
         <h4 id="room" class="fixed-div-text"></h4>

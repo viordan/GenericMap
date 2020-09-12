@@ -229,8 +229,8 @@ const clearSelection = () => {
 };
 
 const createRoomLinks = (zoomID) => { // create the html 
-    let phoneLink = createLink('tel:16475580588,,'+zoomID+'#,#','images/callphoneicon.png','50px');
-    let zoomLink = createLink('https://zoom.us/j/'+zoomID,'images/callzoomicon.png','50px');
+    let phoneLink = createLink('tel:16475580588,,'+zoomID+'#,#','/images/callphoneicon.png','50px');
+    let zoomLink = createLink('https://zoom.us/j/'+zoomID,'/images/callzoomicon.png','50px');
     roomLabel.textContent = ' '+zoomID+' ';
     roomLabel.insertBefore(phoneLink, roomLabel.firstChild);
     roomLabel.appendChild(zoomLink); // append to the message 
@@ -248,12 +248,10 @@ const createLink = (_href,_src,_height,_zoomID) => { //html fuckery
 };
 
 const renderAssets = () => { // do the map stuff
-    fullmap = new Sprite(resources['images/cleanmap.png'].texture);
-    roomnames = new Sprite(resources['images/roomnames.png'].texture);
+    fullmap = new Sprite(resources['/images/mainmap.png'].texture);
     setupMap();
     setupPointer();
     app.stage.addChild(fullmap);
-    fullmap.addChild(roomnames);
     fullmap.addChild(legendlayer);
     fullmap.addChild(secondFloor);
     fullmap.addChild(pointer);
@@ -286,8 +284,8 @@ const setupRenderer = () => {
 };
 
 const setupCursor = () => {
-    app.renderer.plugins.interaction.cursorStyles.default = 'url("images/newcursor.png"),auto';
-    app.renderer.plugins.interaction.cursorStyles.hover = 'url("images/newcursor.png"),auto';
+    app.renderer.plugins.interaction.cursorStyles.default = 'url("/images/newcursor.png"),auto';
+    app.renderer.plugins.interaction.cursorStyles.hover = 'url("/images/newcursor.png"),auto';
 };
 
 const setupMap = () => {
@@ -307,10 +305,10 @@ const setupMap = () => {
 };
 
 const setupPointer = () => {
-    pointer = new Sprite(resources['images/newpointer.png'].texture);
-    pin = new Sprite(resources['images/pin.png'].texture);
-    secondFloor = new Sprite(resources['images/newsecondfloor.png'].texture);
-    legendlayer = new Sprite(resources['images/legendlayer.png'].texture);
+    pointer = new Sprite(resources['/images/newpointer.png'].texture);
+    pin = new Sprite(resources['/images/pin.png'].texture);
+    secondFloor = new Sprite(resources['/images/newsecondfloor.png'].texture);
+    legendlayer = new Sprite(resources['/images/legendlayer.png'].texture);
     secondFloor.position.set(2434,3572);
     secondFloor.alpha=0;
     pin.anchor.set(0.5,1);
@@ -322,7 +320,7 @@ const setupPointer = () => {
 };
 
 const loadAssets = () => {
-    loader.add(['images/newpointer.png','images/pin.png','images/newsecondfloor.png','images/cleanmap.png','images/roomnames.png','images/legendlayer.png']);
+    loader.add(['/images/newpointer.png','/images/pin.png','/images/newsecondfloor.png','/images/mainmap.png','/images/roomnames.png','/images/legendlayer.png']);
     loader.load(setup);
 };
 
@@ -362,16 +360,16 @@ const populateRooms = (result) => {
 const populateAggregateContainers = () => {
     for (let container in containers){
         for(let key in containers[container].data){
-            let aggregatePin = new Sprite(resources['images/pin.png'].texture);
+            let aggregatePin = new Sprite(resources['/images/pin.png'].texture);
             aggregatePin.position.set(containers[container].data[key].x,containers[container].data[key].y);
             containers[container].pixiContainer.addChild(aggregatePin);
         }
         containers[container].pixiContainer.position.set(-30,-75); // not sure why offset is needed and too lasy to find out
     }
 };
-
-let zoomScale = 0.3, // this sets the zoom
-secondFloor, pointer, pin, fullmap, roomnames, legendlayer,// sprites.
+let defaultZoom =0.2;
+let zoomScale = defaultZoom, // this sets the zoom
+secondFloor, pointer, pin, fullmap, legendlayer,// sprites.
 selectedRoom, // store the selected room 
 pinPoints; // actual data for the points
 
