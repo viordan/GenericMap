@@ -1,3 +1,30 @@
+// asset paths
+
+let pointerPath = '/images/newpointer.png';
+let pinPath = '/images/pin.png';
+let phoneiconPath = '/images/callphoneicon.png';
+let zoomiconPath = '/images/callzoomicon.png';
+let cursorPath = 'url("/images/newcursor.png"),auto';
+let legendLayerPath = '/images/legendlayer.png';
+let mainMapPath = '/images/mainmap.png';
+
+//nav buttons
+let zoomInButtonImagePath = '/images/zoomin.png';
+let zoomOutButtonImagePath = '/images/zoomout.png';
+let questionButtonImagePath = '/images/question.png';
+let zoomInButtonImage = '<img src="'+zoomInButtonImagePath+'" class="button-style" />';
+let zoomOutButtonImage = '<img src="'+zoomOutButtonImagePath+'" class="button-style" />';
+let questionButtonImage = '<img src="'+questionButtonImagePath+'" class="button-style" />';
+
+//control UI
+
+let hasZoom =true;
+let hasPhone = true;
+let mapTitle = 'Burlington Office Map';
+let helpLabelText = 'Updated Aug / 2020 ';
+let helpButtonLink = 'https://app.slack.com/client/T029VMQML/DLN4J6ABA';
+
+
 const app = new PIXI.Application({ // create the app
     forceCanvas: true,
     antialias: true, 
@@ -18,6 +45,57 @@ const roomSelector = document.getElementById('roomSelector'); // dom references
 const maincontainer = document.getElementById('maincontainer');
 
 const roomLabel = document.getElementById('room');
+
+const createHTMLTitle = (titleText) => {
+    let mainTitle = document.createElement('p');
+    mainTitle.textContent = titleText;
+    maincontainer.insertBefore(mainTitle,maincontainer.firstChild);
+}
+
+const createHTMLHelp = (helpText) => {
+    let helpLabel = document.createElement('p');
+    helpLabel.textContent = helpText;
+    helpLabel.className = 'date-label'
+    let helpButton = document.createElement('button');
+    helpButton.innerHTML = 'Help!'
+    helpButton.onclick = function(){window.open(helpButtonLink);}
+    helpLabel.appendChild(helpButton);
+    maincontainer.insertBefore(helpLabel,maincontainer.firstChild);
+}
+
+const createNavigationButtons = () => {
+    let questionButton = document.createElement('button');
+    questionButton.innerHTML = questionButtonImage;
+    questionButton.onclick = function(){toggleLegend()}
+    maincontainer.insertBefore(questionButton,maincontainer.firstChild);
+    let zoomOutButton = document.createElement('button');
+    zoomOutButton.innerHTML = zoomOutButtonImage;
+    zoomOutButton.onclick = function(){zoom(0.1)}
+    maincontainer.insertBefore(zoomOutButton,maincontainer.firstChild);
+    let zoomInButton = document.createElement('button');
+    zoomInButton.innerHTML = zoomInButtonImage;
+    zoomInButton.onclick = function(){zoom(-0.1)}
+    maincontainer.insertBefore(zoomInButton,maincontainer.firstChild);
+}
+const createHTMLTitleDiv = () => {
+    createNavigationButtons();
+    createHTMLHelp(helpLabelText);
+    createHTMLTitle(mapTitle);
+}
+const createRoomLinks = (zoomID,phoneNumber) => { // create the html 
+    let phoneLink;
+    if (phoneNumber === zoomID){ // if the phone number is the same as zoom, create the link zoom's phone number prefaced.
+        phoneLink = createLink('tel:16475580588,,'+phoneNumber+'#,#',phoneiconPath,'50px');
+    } else {
+        phoneLink = createLink('tel:'+phoneNumber+',,'+phoneNumber+'#,#',phoneiconPath,'50px');
+    }
+    let zoomLink = createLink('https://zoom.us/j/'+zoomID,zoomiconPath,'50px');
+    roomLabel.textContent = ' '+zoomID+' ';
+    roomLabel.insertBefore(phoneLink, roomLabel.firstChild);
+    roomLabel.appendChild(zoomLink); // append to the message 
+    roomLabel.style.display = 'block';
+};
+
 
 const containers={ // easier to itterate through 
     growth : new ContainerObject('growth','GROWTH'),//data for aggregate containers
@@ -130,6 +208,7 @@ const getCSVData =async () => { //hack get data from CSV file
 };
 
 const setup = () =>{ // setup does the dropdown on change and renders stuff
+    createHTMLTitleDiv();
     getCSVData();
     setupRenderer();
     renderAssets();
@@ -169,11 +248,6 @@ const doTheZoom = (value) =>{
     fullmap.scale.set(value);
     if (selectedRoom!=null&&selectedRoom!=''){
         movePointer(selectedRoom.x,selectedRoom.y);
-        if (selectedRoom.floor==='Second Floor'){
-            secondFloor.alpha=1;
-        }else {
-            secondFloor.alpha=0;
-        }
     }else {
         fullmap.pivot.set(2048,2048); // set the pivot of the map at the coordinates
         centerMap();
@@ -202,17 +276,20 @@ const doTheRoomThing = (roomID) => {
     }
     if(!isContainer){
         selectedRoom=pinPoints[roomID];
-        let zoomID = selectedRoom.zoom;
-        if (zoomID!='' && zoomID!=null && zoomID!='person'){ // if zoom ID exists create zoom link
-            createRoomLinks(zoomID);
-        }else if(zoomID==='person'){
-            roomLabel.style.display = 'none';
-        }else{
-            roomLabel.textContent = ' No Zoom ';
-            roomLabel.style.display = 'block';
+        if (hasZoom || hasPhone){
+            let zoomID = selectedRoom.zoom;
+            if (zoomID!='' && zoomID!=null && zoomID!='person'){ // if zoom ID exists create zoom link
+                let phoneNumber = zoomID; // in the future this would be differnt for now it's the same.
+                createRoomLinks(zoomID,phoneNumber);
+            }else if(zoomID==='person'){
+                roomLabel.style.display = 'none';
+            }else{
+                roomLabel.textContent = ' No Zoom ';
+                roomLabel.style.display = 'block';
+            }
         }
         movePointer(selectedRoom.x,selectedRoom.y);
-        if (selectedRoom.floor==='Second Floor') secondFloor.alpha=1;
+        // if (selectedRoom.floor==='Second Floor') secondFloor.alpha=1;
     }
 };
 
@@ -225,17 +302,9 @@ const clearSelection = () => {
     pin.alpha=0;     //make pointer invisible
     pointer.alpha=0;
     clearAggregateContainers(); //clear the containers for multiple points
-    secondFloor.alpha=0;     //remove second floor
 };
 
-const createRoomLinks = (zoomID) => { // create the html 
-    let phoneLink = createLink('tel:16475580588,,'+zoomID+'#,#','/images/callphoneicon.png','50px');
-    let zoomLink = createLink('https://zoom.us/j/'+zoomID,'/images/callzoomicon.png','50px');
-    roomLabel.textContent = ' '+zoomID+' ';
-    roomLabel.insertBefore(phoneLink, roomLabel.firstChild);
-    roomLabel.appendChild(zoomLink); // append to the message 
-    roomLabel.style.display = 'block';
-};
+
 
 const createLink = (_href,_src,_height,_zoomID) => { //html fuckery 
     let link = document.createElement('a');
@@ -248,12 +317,11 @@ const createLink = (_href,_src,_height,_zoomID) => { //html fuckery
 };
 
 const renderAssets = () => { // do the map stuff
-    fullmap = new Sprite(resources['/images/mainmap.png'].texture);
+    fullmap = new Sprite(resources[mainMapPath].texture);
     setupMap();
     setupPointer();
     app.stage.addChild(fullmap);
     fullmap.addChild(legendlayer);
-    fullmap.addChild(secondFloor);
     fullmap.addChild(pointer);
     fullmap.addChild(pin);
     for (let container in containers){
@@ -284,12 +352,11 @@ const setupRenderer = () => {
 };
 
 const setupCursor = () => {
-    app.renderer.plugins.interaction.cursorStyles.default = 'url("/images/newcursor.png"),auto';
-    app.renderer.plugins.interaction.cursorStyles.hover = 'url("/images/newcursor.png"),auto';
+    app.renderer.plugins.interaction.cursorStyles.default = cursorPath;
+    app.renderer.plugins.interaction.cursorStyles.hover = cursorPath;
 };
 
 const setupMap = () => {
-    // addToContainer();
     fullmap.scale.set(zoomScale);
     fullmap.pivot.set(0,0);
     fullmap.interactive=true;
@@ -305,12 +372,9 @@ const setupMap = () => {
 };
 
 const setupPointer = () => {
-    pointer = new Sprite(resources['/images/newpointer.png'].texture);
-    pin = new Sprite(resources['/images/pin.png'].texture);
-    secondFloor = new Sprite(resources['/images/newsecondfloor.png'].texture);
-    legendlayer = new Sprite(resources['/images/legendlayer.png'].texture);
-    secondFloor.position.set(2434,3572);
-    secondFloor.alpha=0;
+    pointer = new Sprite(resources[pointerPath].texture);
+    pin = new Sprite(resources[pinPath].texture);
+    legendlayer = new Sprite(resources[legendLayerPath].texture);
     pin.anchor.set(0.5,1);
     pin.scale.set(2);
     pointer.anchor.set(1,0.2);
@@ -320,7 +384,7 @@ const setupPointer = () => {
 };
 
 const loadAssets = () => {
-    loader.add(['/images/newpointer.png','/images/pin.png','/images/newsecondfloor.png','/images/mainmap.png','/images/roomnames.png','/images/legendlayer.png']);
+    loader.add([pointerPath,pinPath,mainMapPath,legendLayerPath]);
     loader.load(setup);
 };
 
@@ -369,7 +433,7 @@ const populateAggregateContainers = () => {
 };
 let defaultZoom =0.2;
 let zoomScale = defaultZoom, // this sets the zoom
-secondFloor, pointer, pin, fullmap, legendlayer,// sprites.
+pointer, pin, fullmap, legendlayer,// sprites.
 selectedRoom, // store the selected room 
 pinPoints; // actual data for the points
 
